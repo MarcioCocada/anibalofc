@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AnibalOfc</title> <!-- Título alterado -->
+    <title>Layout com Quadrado e Círculos</title>
     <link rel="icon" type="image/x-icon" href="anibal-ico.ico"> <!-- Adiciona o favicon -->
     <style>
         body {
@@ -12,7 +12,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-image: url('612\ Sem\ Título_20240731161921.png'); /* Substitua pelo caminho da imagem de fundo */
+            background-image: url('612 Sem Título_20240731161921.png'); /* Substitua pelo caminho da imagem de fundo */
             background-size: cover;
             background-position: center;
             margin: 0;
@@ -39,7 +39,7 @@
             display: flex;
             justify-content: space-around;
             width: 100%;
-            max-width: 800px; /* Ajuste a largura máxima do container se necessário */
+            max-width: 1000px; /* Ajuste a largura máxima do container se necessário */
             position: relative;
         }
         .circulo {
@@ -66,6 +66,9 @@
         .tiktok {
             box-shadow: 15px 15px 20px rgba(0, 255, 255, 0.5); /* Sombra azul */
         }
+        .nova-bola {
+            box-shadow: 15px 15px 20px rgba(255, 0, 174, 0.5); /* Sombra laranja */
+        }
         .bola-inferior {
             position: absolute;
             bottom: 20px; /* Ajusta a distância do fundo */
@@ -74,7 +77,7 @@
             height: 100px;
             border-radius: 10px;
             overflow: hidden;
-            box-shadow: 15px 15px 20px rgba(255, 225, 0, 0.5); /* Sombra azul */
+            box-shadow: 15px 15px 20px rgba(255, 204, 0, 0.5); /* Sombra azul */
         }
         .bola-inferior img {
             width: 100%;
@@ -101,6 +104,11 @@
         <a class="link" href="https://www.tiktok.com/@anbalofc" target="_blank">
             <div class="circulo tiktok">
                 <img src="tiktok3.webp" alt="Imagem no círculo 3"> <!-- Substitua pelo caminho da sua imagem -->
+            </div>
+        </a>
+        <a class="link" href="https://www.instagram.com/aniball_ofc/" target="_blank"> <!-- Link para Instagram -->
+            <div class="circulo nova-bola">
+                <img src="Instagram3.png" alt="Imagem no círculo 4"> <!-- Substitua pelo caminho da sua imagem -->
             </div>
         </a>
     </div>
